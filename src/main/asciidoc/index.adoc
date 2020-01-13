@@ -1,0 +1,61 @@
+= SFG Restdocs example
+Yeagor;
+:doctype: book
+:icons: font
+:source-highlighter: highlightjs
+
+Sample demo app of Spring REST Docs with JUnit5.
+
+---
+
+GET BEER
+
+How to make a request using cURL:
+
+include::{snippets}/v1/beer-get/curl-request.adoc[]
+
+HTTP request:
+
+include::{snippets}/v1/beer-get/http-requests.adoc[]
+
+HTTP response:
+
+include::{snippets}/v1/beer-get/http-response.adoc[]
+
+Response Body:
+
+include::{snippets}/v1/beer-get/response-body.adoc[]
+
+Response Fields:
+
+include::{snippets}/v1/beer-get/response-fields.adoc[]
+
+---
+
+NEW BEER
+
+How to make a request using cURL:
+
+include::{snippets}/v1/beer-new/curl-request.adoc[]
+
+HTTP request:
+
+include::{snippets}/v1/beer-new/http-requests.adoc[]
+
+HTTP response:
+
+include::{snippets}/v1/beer-new/http-response.adoc[]
+
+Response Body:
+
+include::{snippets}/v1/beer-new/response-body.adoc[]
+
+Response Fields:
+
+include::{snippets}/v1/beer-new/response-fields.adoc[]
+
+Request Fields:
+
+include::{snippets}/v1/beer-new/request-fields.adoc[]
+
+
